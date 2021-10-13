@@ -1,14 +1,13 @@
-import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
-import { contadorComponent } from './contador/contador.component';
-
+import { ContadorComponent } from './contador/contador.component';
 
 @NgModule({
-    declarations:[contadorComponent],
-    exports: [contadorComponent]
+    declarations: [
+        ContadorComponent
+    ],
+    exports: [
+        ContadorComponent
+    ]
 })
-
-export default class contadormodule{
-
-}
+export class ContadorModule {}
